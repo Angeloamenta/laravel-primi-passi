@@ -25,3 +25,16 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 });
+
+Route::get('/chisiamo', function () {
+         return view('chi_siamo');
+})->name('chisiamo');
+
+Route::get('/contatti', function () {
+    return view('contatti');
+})->name('contatti');
+
+Route::get('/contattaci', function () {
+    return view('contattaci');
+})->name('contattaci');
+     

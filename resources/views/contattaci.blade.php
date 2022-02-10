@@ -7,13 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="{{'chisiamo'}}">Chi siamo</a></li>
-            <li><a href="{{'contatti'}}">Contatti</a></li>
-        </ul>
-    </nav>
-    <h1>Hello World</h1>
-    <h3>Ciao {{$name}} {{$lastname}}</h3>
+    <h2>Contattaci</h2>
+    <a href="{{'/'}}">home</a>
 </body>
 </html>
